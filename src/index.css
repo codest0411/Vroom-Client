@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Hide MapLibre attribution bar */
+.maplibregl-ctrl-attrib {
+	display: none !important;
+}
