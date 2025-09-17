@@ -1,4 +1,4 @@
-
+// import DriverPricingPage from './pages/DriverPricing';
 import { supabase } from './supabaseClient';
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
@@ -12,10 +12,9 @@ import SettingsPage from './pages/SettingsPage';
 import DriverPage from './pages/DriverPage';
 import DriverProfile from './pages/DriverProfile';
 import DriverSettings from './pages/DriverSettings';
-import DriverPricingPage from './pages/DriverPricing';
 import PricingPage from './pages/PricingPage';
 import PaymentCancel from './pages/PaymentCancel';
-import DriverPricingPage from './pages/DriverPricing';
+// import DriverPricingPage from './pages/DriverPricing';
 import DriverCheckout from './pages/DriverCheckout';
 import DriverPaymentCancel from './pages/DriverPaymentCancel';
 
