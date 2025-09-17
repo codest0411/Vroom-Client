@@ -14,7 +14,7 @@ import DriverProfile from './pages/DriverProfile';
 import DriverSettings from './pages/DriverSettings';
 import PricingPage from './pages/PricingPage';
 import PaymentCancel from './pages/PaymentCancel';
-// import DriverPricingPage from './pages/DriverPricing';
+import DriverPricingPage from './pages/DriverPricing';
 import DriverCheckout from './pages/DriverCheckout';
 import DriverPaymentCancel from './pages/DriverPaymentCancel';
 
