@@ -1,7 +1,7 @@
 
 export function startStripeCheckout({ amount, type = "wallet", userId, rideId }) {
   // Call backend to create Stripe Checkout session
-  fetch("/api/payments/create-checkout-session", {
+    fetch(`${process.env.REACT_APP_API_URL}/api/payments/create-checkout-session`, {
     method: "POST",
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify({ amount, type, userId, rideId })
