@@ -106,7 +106,7 @@ function StripeCheckoutButton({ amount, label }) {
     try {
       const { data } = await supabase.auth.getUser();
       const userId = data?.user?.email || "guest";
-  const response = await fetch(`${process.env.REACT_APP_BACKEND_URL || "http://localhost:5000"}/api/payments/create-checkout-session`, {
+  const response = await fetch(`${process.env.REACT_APP_API_URL || "http://localhost:5000"}/api/payments/create-checkout-session`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ amount, type: "plan", userId })
